@@ -1,3 +1,5 @@
+// const index = require('../public/assets/js/index');
+
 const router = require("express").Router();
 const fs = require('fs');
 
@@ -30,6 +32,27 @@ router.post('/', (req, res) => {
             res.json(newData);
         })
     })
-})
+});
+
+router.delete('/:id', (req, res) => {
+    var deletion = req.params.id;
+    console.log(deletion);
+    fs.readFile('./db/db.json', 'UTF8', (err, data) => {
+        if (err) throw err;
+        const newData = JSON.parse(data);
+        for(var i = 0; i < newData.length; i++) {
+            if(deletion == newData[i].id) {
+                newData.splice(i, 1);
+                fs.writeFile('./db/db.json', JSON.stringify(newData), (err) => {
+                    if (err) throw err;
+                    res.json(newData);
+                })
+            }
+        }
+    })
+});
+
+
+
 
 module.exports = router
