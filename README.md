@@ -10,9 +10,12 @@ In this project I was prompted with the ask of providing a Note Taking applicati
 
 [Deployed-App-Link](https://rocky-shore-70386.herokuapp.com/notes)
 
+
 ## Table of Contents
 
-* [View](#Full-Site-View)
+* [View](#full-site-view)
+
+* [Technology-Used](#technology-used)
 
 * [Contribute](#contribute)
 
@@ -22,16 +25,35 @@ In this project I was prompted with the ask of providing a Note Taking applicati
 
 * [Questions](#questions)
 
+
 ## Full-Site-View
 
 ![Image](/images/websitepeak.PNG)
 
 
+## Technology-Used
+
+- GitHub - repository storage for the project in order to amke changes, deploy them and push to a main branch. 
+
+- GitBash - used for written commands and communicating with the repository stored on GitHub.
+
+- HTML - used to create and edit electronic documents stored on the web.
+
+- CSS - used to edit style and appearance of the website.
+
+- Javascript - a programming language that makes your webpage user interactive.
+
+- Node.js - an efficient platform that runs Javascript outside of the web browser.
+    - Express
+    - API Routes
+    - HTML Routes
+    - Heroku App
+
 ## Contribute 
     
 In order to contribute, you will need to know the following languges:
     
-  - HTML, Node, Javascript, Express
+  - HTML, Node, Javascript, Express.
 
 ## Tests
 
@@ -44,17 +66,14 @@ To run tests, please use the following command:
 
 How was it made? Take a look here!
 
-Init Function
+Here's a look at my server.js where I'm declaring my routes to each route page and the ports being used locally if not provided on Heroku
 
-![Code-Snippet]()
+![Code-Snippet](/images/serverpeak.PNG)
 
-Generate Function
+This is the response being formulated when the front-end sends a request to delete an item from the database on my local machine. 
 
-![Code-Snippet]()
+![Code-Snippet](/images/deletereq.PNG)
 
-Generate License Function
-
-![Code-Snippet]()
 
 ## Questions
 
@@ -65,6 +84,7 @@ Please click the link to see my Full GitHub profile:
 If you have any questions, please see the following links to best get in contact with me:
 
 [Email Me](jakenovelli11@gmail.com)
+
 
 ## License
 
