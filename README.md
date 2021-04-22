@@ -6,8 +6,9 @@
 
 ## Description
 
-In this project I was prompted with the ask of providing a Note Taking application that will provide the user with a section to enter notes they would like to save. When a user clicks on the sections Title and Text, they are able to enter text to name the section and provide the note. After they are finished with the note, they can then click the save button on the top right of the screen in order to save the note into their own saved notes section on the left hand side of the screen. When the user clicks the note on the left side of the screen, the Notes section will then populate with the information that note contains. In order to do this I needed to create paths for each function to communicate with the server, then processing all requests and feeding responses.
+In this project I was prompted with the ask of providing a Note Taking application that will provide the user with a section to enter notes they would like to save. When a user clicks on the sections Title and Text, they are able to enter text to name the section and provide the note. After they are finished with the note, they can then click the save button on the top right of the screen in order to save the note into their own saved notes section on the left hand side of the screen. When the user clicks the note on the left side of the screen, the Notes section will then populate with the information that note contains. In order to do this I needed to create paths for each function to communicate with the server, then processing all requests and feeding responses. Below is a link to the full app:
 
+[Deployed-App-Link](https://rocky-shore-70386.herokuapp.com/notes)
 
 ## Table of Contents
 
@@ -23,7 +24,7 @@ In this project I was prompted with the ask of providing a Note Taking applicati
 
 ## Full-Site-View
 
-[Image]()
+![Image](/images/websitepeak.PNG)
 
 
 ## Contribute 
