@@ -5,7 +5,7 @@ const notesLength = () => {
     let data = fs.readFileSync('./db/db.json', 'UTF8');
     data = JSON.parse(data);
     return data.length;
-} 
+}
 
 router.get('/', (req, res) => {
     fs.readFile('./db/db.json', 'UTF8', (err, data) => {
@@ -32,14 +32,4 @@ router.post('/', (req, res) => {
     })
 })
 
-
-
-
-
-
 module.exports = router
-
-
-
-
-// 

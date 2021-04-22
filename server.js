@@ -10,11 +10,6 @@ app.use(express.static('public'));
 app.use('/api/notes', require('./routes/apiroutes'));
 app.use('/', require('./routes/htmlroutes'));
 
-
-
-
-
-
 app.listen(PORT, () => {
     console.log(`App listening on PORT ${PORT}`);
-  });
+});
